@@ -1,0 +1,14 @@
+# Vagrant
+.vagrant/
+
+# Python
+bin/
+build/
+include/
+lib/
+local/
+.pyc
+
+#App
+
+olivinent/

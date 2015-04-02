@@ -1,8 +1,0 @@
-- name: Install Packages
-  sudo: yes
-  apt: pkg={{ item }} state=installed update_cache=yes
-  with_items:
-    #Databases
-    -postgresql
-    -libpq-dev
-    -python-psycopg2
